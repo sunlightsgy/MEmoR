@@ -1,0 +1,57 @@
+{
+    "name": "Test_9",
+    "message":"MEmoR Baseline",
+    "anno_file": "data/anno.json",
+    "data_file": "data/data.json",
+    "id_file": "data/test_id.txt",
+    "emo_type": "primary",
+    "speakers": ["sheldon", "leonard", "howard", "rajesh", "penny", "bernadette", "amy", "others"],
+    "audio": {
+        "feature_file": "data/features/audio_features.json",
+        "feature_dim": 6373
+    },
+    "text": {
+        "bert_model_name": "bert-large-uncased",
+        "feature_file": "data/features/text_features.json",
+        "feature_dim": 1024
+    },
+    "visual": {
+        "frame_path": "data/clips_frames",
+        "faces_feature_dir": "data/features/visual_features/face_features",
+        "faces_names_dir": "data/features/visual_features/face_names",
+        "obj_feature_dir": "data/features/visual_features/object_features",
+        "env_feature_dir": "data/features/visual_features/environment_features",
+        "dim_env": 2048,
+        "dim_obj": 1230,
+        "dim_face": 1024
+    },
+    "personality": {
+        "used":true,
+        "anno_file": "data/features/character_features.csv",
+        "feature_dim": 118
+    },
+    "n_gpu": 1,
+    "data_loader": {
+        "type": "MEmoRDataLoader",
+        "args":{
+            "batch_size": 8,
+            "shuffle": false,
+            "validation_split": 0.0,
+            "num_workers": 2,
+            "seed": 2020
+        }
+    },
+    "model": {
+        "type": "AMER",
+        "args":{
+            "D_e": 128
+        }
+    },
+    "loss": "nll_loss",
+    "metrics": [
+        "accuracy",
+        "macro_f1",
+        "weighted_f1"
+    ]
+
+}

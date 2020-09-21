@@ -1,0 +1,6 @@
+pytorch==1.4.0
+torchvision==0.4.1
+transformers==2.5.0
+pandas
+
+
