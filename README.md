@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-The MEmoR datasets are released on [onedrive](https://tinyurl.com/y6edozo5). You should download the License Agreement in this repo and send back to thusgy2012 at gmail.com. Once downloaded, please set a soft link to the MEmoR dataset
+The MEmoR datasets are released on [onedrive](https://tinyurl.com/y6edozo5). You should download the License Agreement in this repo and send back to thusgy2012 at gmail.com. Then you will get the password. Once downloaded, please set a soft link to the MEmoR dataset:
 
 ```
 ln -s /path/to/MEmoR data
