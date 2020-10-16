@@ -1,6 +1,6 @@
 # MEmoR
 
-This is the official pytorch implementation for the paper ["MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos"](some link) in ACM Multimedia 2020."
+This is the official pytorch implementation for the paper ["MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos"](https://dl.acm.org/doi/10.1145/3394171.3413909) in ACM Multimedia 2020."
 
 ## Installation
 - Python 3.6
