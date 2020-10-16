@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-The MEmoR datasets are released on [onedrive](https://tinyurl.com/y6edozo5). You should download the License Agreement in this repo and send back to thusgy2012 at gmail.com. Then you will get the password. Once downloaded, please set a soft link to the MEmoR dataset:
+The MEmoR datasets are released on [onedrive](https://tsinghuaeducn-my.sharepoint.com/:f:/g/personal/xin_wang_tsinghua_edu_cn/Eq4cmdFBF1RDjyM_Pd3VRQcBZAr4IZCeYRZ_Dzh_1tFFHg?e=I4DmiC). You should download the License Agreement in this repo and send back to thusgy2012 at gmail.com. Then you will get the password. Once downloaded, please set a soft link to the MEmoR dataset:
 
 ```
 ln -s /path/to/MEmoR data
@@ -39,11 +39,11 @@ We provide a pretrained model for primary and fine-grained emotions in the data/
 If you use this code or dataset for your research, please cite our papers.
 
 ```
-@inproceedings{shen2019facial,
+@inproceedings{shen2020memor,
   title={MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos},
   author={Shen, Guangyao and Wang, Xin and Duan, Xuguang and Li, Hongzhi and Zhu, Wenwu},
   booktitle={Proceedings of the 28th ACM international conference on Multimedia},
-  pages={??--??},
+  pages={493--502},
   year={2020},
   organization={ACM}
 }
