@@ -25,7 +25,7 @@ class TextFeatureExtractor(BaseFeatureExtractor):
         for character in on_characters:
             for ii, speaker in enumerate(speakers):
                 if character == speaker:
-                    index = "{}+{}".format(clip, seg_ori_ind[ii])
+                    index = "{}+{}".format(clip, ii)
                     ret.append(torch.tensor(self.features[index]))
                     ret_valid.append(1)
                 else:
